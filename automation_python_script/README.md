@@ -1,4 +1,5 @@
 **Automate ALX SE Files Preparation :-**
+
 The script take's the file name as argument as it run and do :-
 
 1. Create the file in the current work directory
