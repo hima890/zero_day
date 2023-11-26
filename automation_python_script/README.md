@@ -1,9 +1,19 @@
-**Automate ALX SE Files Preparation :-**
+**ALX SE Files Preparation Automation Script**
 
-The script take's the file name as argument as it run and do :-
+This script is designed to automate the preparation of ALX SE (Software Engineering) files. When executed, the script takes the file name as an argument and performs the following actions:
 
-1. Create the file in the current work directory
+1. **File Creation:**
+   - Creates the specified file in the current working directory.
 
-2. Add the executable mode the file
+2. **Executable Mode Addition:**
+   - Grants executable permissions to the created file.
 
-2. In the file the first line will content "#!/bin/bash" and two empty lines
+3. **File Content Modification:**
+   - Adds the following content to the file:
+      - The first line with "#!/bin/bash".
+      - Two empty lines following the shebang.
+
+Usage Example:
+```python
+./exeute.py new_file.sh
+```
